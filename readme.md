@@ -23,6 +23,8 @@ gcloud init
 ### 2.4 将 cloundsehll.ps1 脚本 添加到环境变量中
 ### 2.5 在终端中执行 cloudshell 脚本
 
+
+
 ## 3 常用指令
 ### 3.1连接cloud
 ```sh
