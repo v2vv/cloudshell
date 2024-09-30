@@ -14,12 +14,23 @@ https://cloud.google.com/sdk/docs/install-sdk?hl=zh-cn
 & $env:Temp\GoogleCloudSDKInstaller.exe
 ```
 
-### 连接指令
+### 初始化
+```sh
+gcloud init 
+```
+
+### 添加config配置文件到 用户 .ssh 目录
+### 将 cloundsehll.ps1 脚本 添加到环境变量中
+### 在终端中执行 cloudshell 脚本
+
+## 常用指令
+### 连接cloud
 ```sh
 # 初始化
 gcloud init 
 gcloud cloud-shell ssh
 ```
+
 
 ### gcloud sdk切换用户
 ```shell
