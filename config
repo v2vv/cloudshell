@@ -1,6 +1,6 @@
 Host google
-  HostName 35.203.151.82 #cloud shell replace HostName
+  HostName 1.1.1.1 #cloud shell replace HostName
   ForwardAgent yes
   Port 6000
-  User v2vvcn #cloud shell replace User
+  User name #cloud shell replace User
   IdentityFile ~/.ssh/google_compute_engine
