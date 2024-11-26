@@ -14,6 +14,4 @@ $configFilePath = "C:\Users\v2vv\.ssh\config"
 
 # gcloud alpha cloud-shell ssh `--authorize-session
 
-ssh google “exit"
-
 code --remote=ssh-remote+google /home/$username
