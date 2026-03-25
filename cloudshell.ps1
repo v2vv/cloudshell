@@ -5,7 +5,7 @@ $username = [regex]::Match($output, '(\w+)@[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+').Grou
 Write-Output "User: $username"
 Write-Output "New IP: $newIP"
 
-$configFilePath = "C:\Users\v2vv\.ssh\config"
+$configFilePath = "$HOME\.ssh\config"
 
 (Get-Content $configFilePath) -replace '\S+(?= #cloud shell replace HostName)', "$newIP" | Set-Content $configFilePath
 (Get-Content $configFilePath) -replace '\S+(?= #cloud shell replace User)', "$username" | Set-Content $configFilePath
