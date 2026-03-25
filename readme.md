@@ -14,6 +14,12 @@ https://cloud.google.com/sdk/docs/install-sdk?hl=zh-cn
 & $env:Temp\GoogleCloudSDKInstaller.exe
 ```
 
+### 2.2 安装 alpha 组件
+
+```
+gcloud components install alpha
+```
+
 ### 2.2 初始化
 ```sh
 gcloud init 
